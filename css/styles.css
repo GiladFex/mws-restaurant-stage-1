@@ -210,9 +210,11 @@ nav h1 a {
   font-family: Arial, sans-serif;
   margin: 15px;
   min-height: 380px;
-  padding: 0 30px 25px;
   text-align: left;
   width: 270px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	text-align: center;
 }
 
 #restaurants-list .restaurant-img {
@@ -221,6 +223,7 @@ nav h1 a {
   margin: 0;
   max-width: 100%;
   max-height: 248px;
+	border-top-left-radius: 18px;
 }
 
 #restaurants-list li h1 {
@@ -237,6 +240,8 @@ nav h1 a {
 #restaurants-list p {
   margin: 0;
   font-size: 11pt;
+	padding: 10px;
+	text-align: left;
 }
 
 #restaurants-list li a {
@@ -263,7 +268,7 @@ nav h1 a {
 
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 100%;
+  height: calc(100% - 145px);
   position: fixed;
   right: 0;
   top: 80px;
