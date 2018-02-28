@@ -90,7 +90,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 
 /* better view for restaurant details in small screens */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .inside #map-container {
     padding-top: 50px !important;
     position: absolute !important;
@@ -98,21 +98,21 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
     height: 400px !important;
   }
   #restaurant-container {
-		width: calc(100% - 30px) !important;
-		padding: 550px 0 0 30px !important;
+    width: calc(100% - 30px) !important;
+    padding: 550px 0 0 30px !important;
   }
   #restaurant-img, #restaurant-cuisine, #restaurant-hours {
     width: calc(100% - 60px) !important;
   }
-	#restaurant-hours{
-		padding: 0 0 30px 0 !important;
-	}
+  #restaurant-hours {
+    padding: 0 0 30px 0 !important;
+  }
   #reviews-list li {
     max-width: 280px !important;
   }
   #reviews-container {
     width: calc(100% - 30px) !important;
-		padding: 0 0 65px 30px !important;
+    padding: 0 0 65px 30px !important;
   }
 }
 
@@ -322,7 +322,7 @@ nav h1 a {
 }
 
 .restaurant-img {
-  width: 100%;
+  width: 90%;
 }
 
 #restaurant-address {
