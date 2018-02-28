@@ -60,13 +60,23 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 
 /* ====================== Media Queries ==================== */
 
-@media screen and (max-width: 597px){
-.filter-options h2{
-	padding-top: 10px !important;
-		display: block !important;
-	}
+@media screen and (max-width: 380px) {
+  nav h1 a {
+    font-size: 8pt !important;
+  }
+}
 
+@media screen and (max-width:500px) and (min-width:380px) {
+  nav h1 a {
+    font-size: 10pt !important;
+  }
+}
 
+@media screen and (max-width: 597px) {
+  .filter-options h2 {
+    padding-top: 10px !important;
+    display: block !important;
+  }
 }
 
 /* ====================== Navigation ====================== */
