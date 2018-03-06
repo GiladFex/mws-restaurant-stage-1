@@ -263,6 +263,7 @@ nav h1 a {
   font-size: 11pt;
   padding: 10px;
   text-align: left;
+	min-height: 62px;
 }
 
 #restaurants-list li a {
